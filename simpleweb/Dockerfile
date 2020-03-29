@@ -11,6 +11,7 @@ COPY ./package.json ./
 # Download and install a dependency
 RUN npm install
 
+# Copy all the other files (index.js etc)
 COPY ./ ./
 
 # Tell the images what do do when it starts as a container
