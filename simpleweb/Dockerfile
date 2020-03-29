@@ -5,6 +5,5 @@ FROM node:alpine
 COPY ./ ./
 RUN npm install
 
-
 # Tell the images what do do when it starts as a container
 CMD ["npm", "start"]
