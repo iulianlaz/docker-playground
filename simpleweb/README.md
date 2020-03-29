@@ -13,3 +13,8 @@ docker build -t <your_docker_id>/simpleweb .
 ```
 docker run -p 5000:8080 <your_docker_id>/simpleweb
 ```
+
+Now, open your web browser and access your web server on
+```
+localhost:5000
+```
